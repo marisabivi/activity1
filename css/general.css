@@ -25,7 +25,7 @@ html {
 } 
 
 .masthead {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(255, 255, 255, .9);
     overflow:hidden;   
 }
 
@@ -57,29 +57,30 @@ h1 {
 }
 
 h2 {
-    margin: 18rem 0% 1rem;
+    margin: 11rem 0% 1rem;
     font-weight:normal;
-    font-size: 2.05rem;
+    font-size: 1.7rem;
     text-align: left;
     background-color:rgba(255, 255, 255, 100);
     padding: .25rem;
-    font-family: Tahoma, Verdana, sans-serif;   
+    font-family: Tahoma, Verdana, sans-serif; 
+    
 }
 
 .billboard {
-    overflow: hidden;
-    background-image:url(../images/weddingfeatured.png);
+    overflow:hidden;
+    background-image:url(../images/weddingfeatured.jpg);
     background-repeat:no-repeat;
     background-size: 100%;        
     background-position:center center;
-    box-shadow: 0 0 .3rem .4rem rgba(0, 0, 0, .3);
-    border: solid .45rem rgba(255 , 255 , 255, .8);   
+    box-shadow: -0 0 .23rem .4rem rgba(0, 0, 0, .2);
+    border: solid .3rem rgba(255 , 255 , 255, .8);   
 }
 
 h3 {
     margin: .5rem 0;
     font-weight:normal;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: left;
     padding: .25rem;
     overflow: hidden;
@@ -119,6 +120,7 @@ figure {
 
 figcaption {
     font-size: .75rem;
+    margin: 0rem 0% 1rem;
     margin: .2rem 0;
     padding: -1 10%;
     background-color: rgba(255, 255, 102, .8);
