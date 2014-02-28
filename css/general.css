@@ -17,11 +17,127 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+    font-size: 85%;
+    font-family: Tahoma, "Trebuchet MS", sans-serif;
+    background-image:url(../images/wedding-gold-seamless-wallpaper-pattern-with-heart.jpg);
+    background-size: 35rem;
     
-    font-size: 100%;
+} 
+
+.masthead {
+    background-color: rgba(255, 255, 255, .3);
+    overflow:hidden;   
 }
 
 img {
 	width: 100%;
     display: block;
+}
+
+body {
+    margin: .5rem;
+    padding: 0;   
+}
+
+.logo {
+    height: 4rem;
+    width:auto;
+    margin: .5 auto;
+    opacity: 1
+}
+
+
+h1 {
+    margin: .5rem 0;
+    font-weight:normal;
+    font-size: 2.3rem;
+    text-align: left;
+    padding: .25rem;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+h2 {
+    margin: 18rem 0% 1rem;
+    font-weight:normal;
+    font-size: 2.05rem;
+    text-align: left;
+    background-color:rgba(255, 255, 255, 100);
+    padding: .25rem;
+    font-family: Tahoma, Verdana, sans-serif;   
+}
+
+.billboard {
+    overflow: hidden;
+    background-image:url(../images/weddingfeatured.png);
+    background-repeat:no-repeat;
+    background-size: 100%;        
+    background-position:center center;
+    box-shadow: 0 0 .3rem .4rem rgba(0, 0, 0, .3);
+    border: solid .45rem rgba(255 , 255 , 255, .8);   
+}
+
+h3 {
+    margin: .5rem 0;
+    font-weight:normal;
+    font-size: 1.8rem;
+    text-align: left;
+    padding: .25rem;
+    overflow: hidden;
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+article {
+    font-size: 120%;
+    font-family: Cambria, Georgia, serif;
+}
+
+.dropcap:first-letter{
+    font-size: 4.8rem;
+    font-weight: bold;
+    float: left;
+    margin: -2rem .2rem 0rem 0;
+    color: rgba(151, 0, 0, 1);
+}
+
+blockquote { 
+    margin: 0;
+    padding: 0 0 0 2rem;
+    overflow: hidden;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 90%;
+    overflow: hidden;
+    background-image:url(../images/weddingfeatured.png);
+    background-repeat:no-repeat;
+    background-size: 100%;        
+    background-position:center center;
+    box-shadow: 0 0 0rem 0rem rgba(0, 0, 0, .3);
+    border: solid .45rem rgba(255 , 255 , 255, .8);  
+}    
+
+figcaption {
+    font-size: .75rem;
+    margin: .2rem 0;
+    padding: -1 10%;
+    background-color: rgba(255, 255, 102, .8);
+}
+
+span {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight:bolder;
+    float:right;
+}
+
+.logo2 {
+    height: 2rem;
+    width:auto;
+    margin: 0 auto 0;
+    float: right;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, .7);
+    overflow:hidden;
 }
