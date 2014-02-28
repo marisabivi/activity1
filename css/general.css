@@ -42,7 +42,7 @@ body {
 .logo {
     height: 4rem;
     width:auto;
-    margin: .5 auto 0;
+    margin: .5 auto .1rem;
     opacity: 1
 }
 
@@ -135,7 +135,7 @@ span {
 .logo2 {
     height: 2rem;
     width:auto;
-    margin: 0 auto 0;
+    margin: 0 auto 0rem;
     float: right;
 }
 
