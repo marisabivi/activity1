@@ -42,7 +42,7 @@ body {
 .logo {
     height: 4rem;
     width:auto;
-    margin: .5 auto;
+    margin: .5 auto 0;
     opacity: 1
 }
 
@@ -122,7 +122,7 @@ figcaption {
     font-size: .75rem;
     margin: 0rem 0% 1rem;
     margin: .2rem 0;
-    padding: -1 10%;
+    padding: -1 10% 0;
     background-color: rgba(255, 255, 102, .8);
 }
 
